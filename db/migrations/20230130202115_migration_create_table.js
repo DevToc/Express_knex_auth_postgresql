@@ -34,7 +34,6 @@ exports.up = function(knex) {
                 .integer('number_id')
                 .references('number_id')
                 .inTable('numbers')
-      
         })
 };
 
